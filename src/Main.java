@@ -1,5 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        MagicBox<Integer> integerMagicBox = new MagicBox<>(5);
+        MagicBox<String> stringMagicBox = new MagicBox<>(5);
     }
 }
